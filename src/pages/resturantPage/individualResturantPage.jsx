@@ -15,9 +15,10 @@ export default function IndividualResturant() {
   // console.log(id);
   // console.log(resturantList);
   const resturant = resturantList.find((data) => data?.id === +id);
-  const avgRating =
+  const avgRating = (
     resturant?.ratings.reduce((acc, { rating }) => acc + Number(rating), 0) /
-    resturant?.ratings.length;
+    resturant?.ratings.length
+  ).toFixed();
   // console.log(resturant);
   // console.log(avgRating);
 
