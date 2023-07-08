@@ -1,0 +1,9 @@
+.selectorCard > button {
+  padding: 1rem 1.5rem;
+  background-color: #ef4f5f;
+  border: 2px solid grey;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 3%;
+  cursor: pointer;
+}

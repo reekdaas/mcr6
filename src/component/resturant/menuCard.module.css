@@ -1,0 +1,20 @@
+.menuCard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #313639;
+  cursor: pointer;
+}
+
+.menuImage {
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+.menuDesc {
+  padding: 0.5rem 0;
+  font-weight: 800;
+}

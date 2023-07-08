@@ -1,0 +1,40 @@
+.resPage {
+  display: flex;
+  background-color: #313639;
+  flex-direction: column;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.resHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.resInfo > h1,
+.resInfo > p {
+  color: #cacaca;
+}
+
+.resHeader > button {
+  padding: 0.25rem 0.5rem;
+  height: 3rem;
+  align-self: center;
+  background-color: #ef4f5f;
+  border: 2px solid grey;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 3%;
+  cursor: pointer;
+}
+
+.reviewComponent {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  border-top: 3px solid black;
+}

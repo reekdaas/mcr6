@@ -1,9 +1,15 @@
-import { createContext, useContext } from "react";
+import { createContext, useContext, useReducer } from "react";
+import { initialState, restaurantReducer } from "./contextReducer";
 
 export const AllContext = createContext(null);
 
 export default function AllContextProvider({ children }) {
-  const value = {};
+  const [resturantData, dispatchFunction] = useReducer(
+    restaurantReducer,
+    initialState
+  );
+
+  const value = { resturantData, dispatchFunction };
   return <AllContext.Provider value={value}>{children}</AllContext.Provider>;
 }
 

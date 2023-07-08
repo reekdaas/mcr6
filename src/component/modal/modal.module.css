@@ -1,0 +1,84 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 108vh;
+}
+
+.modalContainer {
+  border: 2px solid pink;
+  border-radius: 1rem;
+  color: #fff;
+  background-color: #313639;
+  opacity: 1;
+  padding: 1.5rem 1rem;
+  z-index: 10;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 30rem;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modalHeader > button {
+  padding: 0.25rem 0.5rem;
+  height: 3rem;
+  align-self: center;
+  background-color: #ef4f5f;
+  border: 2px solid grey;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 3%;
+  cursor: pointer;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  color: #fff;
+}
+
+.review > input,
+.review > select {
+  padding: 0.5rem 0rem;
+  background-color: inherit;
+  border: 2px solid #ef4f5f;
+  color: #fff;
+}
+
+.review > input:focus {
+  outline: none;
+}
+
+.review > select {
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  color: #ed2539;
+  background-color: #fbfbfb;
+}
+
+.modalContainer > button {
+  padding: 0.25rem 0.5rem;
+  height: 3rem;
+  align-self: center;
+  background-color: #ef4f5f;
+  border: 2px solid grey;
+  color: #fff;
+  font-size: 1.2rem;
+  border-radius: 3%;
+  cursor: pointer;
+}

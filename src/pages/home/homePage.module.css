@@ -1,0 +1,23 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  background-color: #313639;
+  color: #fff;
+  gap: 2rem;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.resturantList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
